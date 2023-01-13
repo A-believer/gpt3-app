@@ -1,11 +1,12 @@
 .gpt3__blog {
     display: flex;
-    flex-direction: column;
+    flex-direction: column;    
 }
 
 .gpt3__blog-heading {
     width: 100%;
     text-align: left;
+
     margin-bottom: 5rem;
 }
 
@@ -28,7 +29,8 @@
 
 .gpt3__blog-container_groupB {
     flex: 1;
-    display: grid;
+
+    display:grid;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 2rem;
 }
@@ -72,4 +74,5 @@
         font-size: 34px;
         line-height: 42px;
     }
+
 }
