@@ -14,3 +14,9 @@
     justify-content: center;
     align-items: center;
 }
+
+@media screen and (max-width: 700px) {
+    .gpt3__brand {
+        flex-direction: column;
+    }
+}
